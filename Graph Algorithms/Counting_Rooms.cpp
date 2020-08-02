@@ -43,7 +43,10 @@ void solve(char a[][1000],list<pair<int,int>> l,int n,int m)
 }
 int32_t main()
 {
-	
+	#ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+#endif
     int n,m;
     cin>>n>>m;
     char a[1000][1000];

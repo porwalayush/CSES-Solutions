@@ -35,7 +35,10 @@ void solve(char a[][1000],int n,int m,int x,int y)
 }
 int32_t main()
 {
-	
+	#ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+#endif
     int n,m,x,y;
     cin>>n>>m;
     char a[1000][1000];
